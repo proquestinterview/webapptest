@@ -1,6 +1,9 @@
 package com.proquest.interview.phonebook;
 
+import java.util.Collection;
+
 public interface PhoneBook {
-	public Person findPerson(String firstName, String lastName);
-	public void addPerson(Person newPerson);
+	Person findPerson(String firstName, String lastName);
+	void addPerson(Person newPerson);
+	Collection<Person> allPeople();
 }
