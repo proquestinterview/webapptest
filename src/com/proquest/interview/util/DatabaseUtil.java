@@ -28,4 +28,21 @@ public class DatabaseUtil {
 		Class.forName("org.hsqldb.jdbcDriver");
 		return DriverManager.getConnection("jdbc:hsqldb:mem", "sa", "");
 	}
+	
+	/**
+	 * deinitDB - delete and close the in Memory database.
+	 */
+	public static void deinitDB()
+	{
+		try {
+			Connection conn = getConnection();
+			Statement stmt = conn.createStatement();
+			stmt.execute("DROP TABLE PHONEBOOK");
+			stmt.execute("SHUTDOWN");
+
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+
 }
