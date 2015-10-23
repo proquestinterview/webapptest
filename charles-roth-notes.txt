@@ -1,0 +1,18 @@
+
+1. Doesn't compile out of the gate: PhoneBookImpl doesn't have right signatures.
+
+2. Putting main in PhoneBookImpl seems like a really bad idea.
+   I would separate it out.  Unless testing exactly THAT is part of the point.
+   
+3. I really hate the TODO's in main.   There's a lot of interpretation going on
+   about what you want.  That may discriminate unfairly against someone with
+   weaker english language skills.
+   
+4. Why is there a List of people, at all?  Seems to serve no useful purpose.
+
+5. DatabaseUtil: This class is just a utility class, you should not have to change anything here
+   Bullshit!   It's the 2nd class I needed to change, to abstract some of the database access.
+   
+6. I hate some parts of my solution... where exactly the Connection object should live is 
+   unclear, and my quick hack is a bit of a mess about that.  With more time I would put it 
+   in one and only one place.
