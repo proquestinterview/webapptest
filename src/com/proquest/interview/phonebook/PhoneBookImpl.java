@@ -13,9 +13,8 @@ public class PhoneBookImpl implements PhoneBook {
 	}
 	
 	@Override
-	public Person findPerson(String first, String last) {
+	public Person findPerson() {
 		//TODO: write this method
-		return null;
 	}
 	
 	public static void main(String[] args) {
