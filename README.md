@@ -15,7 +15,8 @@ although you may do so if it seems like an improvement, as long as you do not de
 You can download this project, make your changes, and zip or tar it up and send it back to us.
 Or if you want to impress us, fork it, put your changes in, and send along the url of your branch.
 
-This exercise typically takes less than an hour, unless you choose to do major refactoring.
-There is no single "right answer".  Be prepared to discuss the changes that you made.
+This exercise typically takes less than an hour, unless you choose to do significant refactoring.
+There are many possible approaches, and no single "right answer".  But do be prepared to discuss 
+the changes that you made.
 
 Thank you!
