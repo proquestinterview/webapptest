@@ -18,7 +18,7 @@ public class PhoneBookImpl implements PhoneBook {
 	}
 	
 	public static void main(String[] args) {
-		DatabaseUtil.initDB();  // Do no remove this line, it creates the simulated database.
+		DatabaseUtil.initDB();  // Do not remove this line, it creates the simulated database.
 
 		// Context: the basic idea is that the phone book lives in ("is persisted to") an
 		// SQL database.  For this exercise, we're using a simulated database (that really just
