@@ -9,7 +9,7 @@ Implement the TODO comments to the best of your ability.  In addition, you shoul
 
 You can download this project, make your changes, zip/tar it up and send it back to us, or if you want to impress us, fork it, put your changes in, and send along the url.
 
-This test should take less than an hour.
+Don't spend too much time on this, it's designed as a pre-screening tool to ensure you understand the basics of software engineering.  It isn't a trick question, and yes, it is a mess on purpose, much like so much of real-life code.
 
 
 Thank you.
