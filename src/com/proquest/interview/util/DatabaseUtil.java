@@ -14,9 +14,9 @@ public class DatabaseUtil {
 		try {
 			Connection cn = getConnection();
 			Statement stmt = cn.createStatement();
-			stmt.execute("CREATE TABLE PHONEBOOK (NAME varchar(255), PHONENUMBER varchar(255), ADDRESS varchar(255))");
-			stmt.execute("INSERT INTO PHONEBOOK (NAME, PHONENUMBER, ADDRESS) VALUES('Chris Johnson','(321) 231-7876', '452 Freeman Drive, Algonac, MI')");
-			stmt.execute("INSERT INTO PHONEBOOK (NAME, PHONENUMBER, ADDRESS) VALUES('Dave Williams','(231) 502-1236', '285 Huron St, Port Austin, MI')");
+			stmt.execute("CREATE TABLE PHONEBOOK (FST_NAME varchar(255), LST_NAME varchar(255), PHONENUMBER varchar(255), ADDRESS varchar(255))");
+			stmt.execute("INSERT INTO PHONEBOOK (FST_NAME, LST_NAME, PHONENUMBER, ADDRESS) VALUES('Chris', 'Johnson','(321) 231-7876', '452 Freeman Drive, Algonac, MI')");
+			stmt.execute("INSERT INTO PHONEBOOK (FST_NAME, LST_NAME, PHONENUMBER, ADDRESS) VALUES('Dave', 'Williams','(231) 502-1236', '285 Huron St, Port Austin, MI')");
 			cn.commit();
 			cn.close();
 		} catch (Exception ex) {
