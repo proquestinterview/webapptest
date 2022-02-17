@@ -7,9 +7,8 @@ This test is designed to give an overview of your capabilities as a java develop
 
 Implement the TODO comments to the best of your ability.  In addition, you should be looking at how to improve this program.  The DatabaseUtil class should not need to be significantly refactored, although you may do so as long as you do not destroy it's functionality.
 
-You can download this project, make your changes, zip/tar it up and send it back to us, or if you want to impress us, fork it, put your changes in, and send along the url.
+You should be able to pull this project, make a branch with your changes, and send a pull request along with your resume. If you are unfamiliar with Git, you can download, change the files and send us a zip (not preferreD).
 
-Don't spend too much time on this, it's designed as a pre-screening tool to ensure you understand the basics of software engineering.  It isn't a trick question, and yes, it is a mess on purpose, much like so much of real-life code.
-
+Don't spend too much time on this, it's designed as a pre-screening tool to ensure you understand the basics of software engineering.  It isn't a trick question, and yes, it is a mess on purpose, much like so much of real-life code :)
 
 Thank you.
