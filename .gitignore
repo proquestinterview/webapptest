@@ -4,3 +4,4 @@ mem.*
 # Package Files #
 *.war
 *.ear
+/bin/
