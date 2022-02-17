@@ -1,5 +1,4 @@
 Interview "work simulation"
-==========
 
 This exercise is designed to tell us something about your capabilities as a Java developer.
 The ultimate goal of it is spelled out in the main method of src/com/proquest/interview/phonebook/PhoneBookImpl.
@@ -12,8 +11,8 @@ Implement the TODO comments to the best of your ability.  In addition, you shoul
 at how to improve this program.  The DatabaseUtil class does not need to be changed, 
 although you may do so if it seems like an improvement, as long as you do not destroy its functionality.
 
-You can download this project, make your changes, and zip or tar it up and send it back to us.
-Or if you want to impress us, fork it, put your changes in, and send along the url of your branch.
+You should be able to pull this project, make a branch with your changes, and send a pull request along with your resume. 
+If you have difficulty, you can download, change the files and send us a zip (not preferred).
 
 This exercise typically takes less than an hour, unless you choose to do significant refactoring.
 There are many possible approaches, and no single "right answer".  But do be prepared to discuss 
