@@ -7,8 +7,7 @@ You will also need to know how to write a few very simple SQL queries.
 The code is entirely self-contained: you should be able to load it up in Eclipse or another IDE 
 and begin working immediately, without needing any other tools or libraries.
 
-Implement the TODO comments to the best of your ability.  In addition, you should be looking at how to improve this program.  
-The DatabaseUtil class should not need to be significantly refactored, although you may do so as long as you do not destroy its functionality.
+Implement the TODO comments to the best of your ability.  In addition, you should be looking at how to improve this program. The DatabaseUtil class should not need to be significantly refactored, although you may do so as long as you do not destroy its functionality.
 
 You should be able to pull this project, make a branch with your changes, and send a pull request along with your resume. 
 If you have difficulty, you can download, change the files and send us a zip (not preferred).
